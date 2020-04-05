@@ -1,0 +1,12 @@
+sudo apt-get install build-essential git-core
+sudo apt-get install curl
+bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+echo '[[ -s "/home/jadrol/.rvm/scripts/rvm" ]] && source "/home/jadrol/.rvm/scripts/rvm"' >> ~/.bashrc
+source ~/.bashrc
+rvm list
+rvm list known
+rvm instll 2.1.0
+# TERMINAL -> Edit -> Profile Preferences -> Run command as login shell
+rvm use --default 2.1.0
+echo 'source ~/.profile' >> ~/.bash_profile
+echo 'source ~/.bashrc' >> ~/.bash_profilee
