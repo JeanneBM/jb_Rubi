@@ -10,3 +10,10 @@ rvm instll 2.1.0
 rvm use --default 2.1.0
 echo 'source ~/.profile' >> ~/.bash_profile
 echo 'source ~/.bashrc' >> ~/.bash_profilee
+
+To check:
+> ruby -v
+> gem helps
+> rake --version
+> rails -v
+//> gem install rails
