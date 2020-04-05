@@ -17,3 +17,8 @@ To check:
 > rake --version
 > rails -v
 //> gem install rails
+
+$ irb
+>> puts "Hello, world!"
+Hello, world!
+=> nil
